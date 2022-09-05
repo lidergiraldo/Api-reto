@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "nombre": "Jairo",
+        "apellido": "Pimentel",
+        "total": 439142,
+        "productos": [
+            "HT555", "LG135"
+        ]
+    },
+    {
+        "id": 2,
+        "nombre": "Liderman",
+        "apellido": "Giraldo",
+        "total": 439142,
+        "productos": [
+            "HT555", "LG135", "CC999", "AB123"
+        ]
+    }
+]

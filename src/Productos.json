@@ -1,0 +1,50 @@
+[
+    {
+        "sku": "HT555",
+        "nombre": "Zapatos deportivos",
+        "precio": 250000,
+        "url":"/images/zdeportivos.jpg",
+        "marca": "Nike",
+        "descripcion": "Zapatos deportivos especiales para tus días de ejercicios. Son cómodos y flexibles, con suela de gamo que ofrece mayor adherencia",
+        "iva": 0.18,
+        "descuento": 0.20,
+        "inventario": 5,
+        "fecha_creacion": "2022-08-31"
+    },
+    {
+        "sku": "LG135",
+        "nombre": "Buzo",
+        "precio": 100000,
+        "url":"/images/buzo.jpg",
+        "marca": "Calvin Klein",
+        "descripcion": "Zapatos deportivos especiales para tus días de ejercicios. Son cómodos y flexibles, con suela de gamo que ofrece mayor adherencia",
+        "iva": 0.25,
+        "descuento": 0.15,
+        "inventario": 10,
+        "fecha_creacion": "2022-08-20"
+    },
+    {
+        "sku": "CC999",
+        "nombre": "Botas",
+        "precio": 1500000,
+        "url":"/images/botas.jpg",
+        "marca": "Moschino",
+        "descripcion": "Zapatos deportivos especiales para tus días de ejercicios. Son cómodos y flexibles, con suela de gamo que ofrece mayor adherencia",
+        "iva": 0.5,
+        "descuento": 0.1,
+        "inventario": 2,
+        "fecha_creacion": "2022-08-10"
+    },
+    {
+        "sku": "AB123",
+        "nombre": "Camisa",
+        "precio": 80000,
+        "url":"/images/camisa.jpg",
+        "marca": "Polo",
+        "descripcion": "Zapatos deportivos especiales para tus días de ejercicios. Son cómodos y flexibles, con suela de gamo que ofrece mayor adherencia",
+        "iva": 0.25,
+        "descuento": 0.15,
+        "inventario": 10,
+        "fecha_creacion": "2022-08-20"
+    }
+]
