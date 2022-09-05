@@ -29,7 +29,24 @@ router.put('/producto/:sku', (request, response) => {
 
 //Endpoint Eliminar producto
 router.delete('/producto/:sku', (request, response) => {
-    
+    const { sku } = request.params;
+
+    _.each(products, (product, i) => {
+        if(product.sku == sku){
+            products.splice(i, 1)
+
+            const delete_process = JSON.stringify(products)
+            fs.writeFileSync('src/Productos.json', delete_process, 'utf-8', (error) => {
+                if(error){
+                    console.log(`Error: ${error}`)
+                }
+            })
+
+            response.json('Product successfully removed')
+        }else{
+            response.json('The product is not registered')
+        }
+    })
 })
 
 //Endpoint Consultar órdenes de compra
