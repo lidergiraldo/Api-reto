@@ -28,7 +28,10 @@ router.get('/producto', (request, response) => {
 
 //Endpoint Consultar producto
 router.get('/producto/:sku', (request, response) => {
+    const { sku } = request.params
     
+    const result = products.filter((element) => element.sku == sku)
+    response.json(result)
 })
 
 //Endpoint Insertar producto
